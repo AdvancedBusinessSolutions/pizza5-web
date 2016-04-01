@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/AdvancedBusinessSolutions/pizza5-web/issues"
   },
+  "scripts": {
+    "test": "gulp"
+  },
   "homepage": "https://github.com/AdvancedBusinessSolutions/pizza5-web#readme",
   "devDependencies": {
     "browser-sync": "^2.11.1",
