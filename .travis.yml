@@ -5,3 +5,5 @@ node_js:
 before_script:
 - npm install -g bower gulp
 - bower install
+notifications:
+  slack: abs-ht-architecture:EfWRfaQKupAvIrJnxro3A0j8
