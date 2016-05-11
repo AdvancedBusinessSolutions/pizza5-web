@@ -13,7 +13,9 @@ module.exports = function(config) {
 	    plugins: [
 			'karma-phantomjs-launcher',
       		'karma-jasmine'
-    	]
+    	],
+		logLevel: config.LOG_DEBUG,
+		color: true
 	});
 };
 

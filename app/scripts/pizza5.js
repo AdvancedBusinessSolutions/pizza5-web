@@ -15,7 +15,7 @@ angular.module('pizza5App').controller('PizzaMenuCtrl', ['OrderService','$http',
     vm.menu = [];
     vm.menuPresent = false;
 
-    $http.get(apiBaseUrl+'/api/menu')
+	$http.jsonp(apiBaseUrl+'/api/menu?callback=JSON_CALLBACK')
         .success(function(data){
             console.log('Success', data);
             vm.menu = data;
